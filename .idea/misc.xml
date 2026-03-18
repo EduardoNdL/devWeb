@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/primeira.aula/pom.xml" />
+        <option value="$PROJECT_DIR$/exemplo-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/validation/pom.xml" />
       </list>
     </option>
   </component>
