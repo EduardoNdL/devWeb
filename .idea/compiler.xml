@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="primeira.aula" />
         <module name="exemplo-jpa" />
+        <module name="exemplo-relacionamento-jpa" />
         <module name="validation" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="exemplo-jpa" options="-parameters" />
+      <module name="exemplo-relacionamento-jpa" options="-parameters" />
       <module name="primeira.aula" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>
