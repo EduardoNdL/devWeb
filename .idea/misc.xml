@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/exemplo-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/validation/pom.xml" />
         <option value="$PROJECT_DIR$/exemplo-relacionamento-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security-jwt-exemplo/pom.xml" />
+        <option value="$PROJECT_DIR$/exemplo-mock/pom.xml" />
+        <option value="$PROJECT_DIR$/exemploIntegracao/pom.xml" />
+        <option value="$PROJECT_DIR$/exemplo-map/pom.xml" />
       </list>
     </option>
   </component>

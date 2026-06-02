@@ -8,15 +8,32 @@
         <outputRelativeToContentRoot value="true" />
         <module name="primeira.aula" />
         <module name="exemplo-jpa" />
+        <module name="exemploIntegracao" />
         <module name="exemplo-relacionamento-jpa" />
+        <module name="exemplo-jwt" />
+        <module name="exemplo-mock" />
         <module name="validation" />
+      </profile>
+      <profile name="Annotation profile for exemplo-map" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.3/mapstruct-processor-1.6.3.jar" />
+        </processorPath>
+        <module name="exemplo-map" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="exemplo-jpa" options="-parameters" />
+      <module name="exemplo-jwt" options="-parameters" />
+      <module name="exemplo-map" options="-parameters" />
+      <module name="exemplo-mock" options="-parameters" />
       <module name="exemplo-relacionamento-jpa" options="-parameters" />
+      <module name="exemploIntegracao" options="-parameters" />
       <module name="primeira.aula" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>
