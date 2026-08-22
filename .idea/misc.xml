@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/exemplo-mock/pom.xml" />
         <option value="$PROJECT_DIR$/exemploIntegracao/pom.xml" />
         <option value="$PROJECT_DIR$/exemplo-map/pom.xml" />
+        <option value="$PROJECT_DIR$/owasp/pom.xml" />
+        <option value="$PROJECT_DIR$/exemploCleanCode/pom.xml" />
       </list>
     </option>
   </component>
